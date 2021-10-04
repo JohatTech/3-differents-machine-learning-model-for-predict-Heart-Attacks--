@@ -39,6 +39,11 @@ The last evaluation was the recall/presicion and the confusion matrix
 Here we got a high performance in the positive case of heart attack, that is exactly what we want
 
 
+Conclusion 
+The best model who outperformce in the prediction of a positive case of heart attack was random forest classifier and the neural networ,
+this models are great for emergency cases in medicine.
+
+
 
 
 
