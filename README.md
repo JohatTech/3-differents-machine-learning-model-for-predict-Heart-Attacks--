@@ -12,7 +12,8 @@ because is a prediction of a emergency event we want a high recall performance
 Random Forest classifer performance 
 we a max depth of 4.55
 ![image](https://user-images.githubusercontent.com/86735728/135650748-c8bcd648-0e0b-4b65-991d-9334185afb90.png)
-in the presicion a recall performance we get a high performance in the recall for positive in Heart Attack
+
+In the presicion a recall performance we get a high performance in the recall for positive in Heart Attack
 the kind of value that we are looking for
 ![image](https://user-images.githubusercontent.com/86735728/135650893-43cb160e-39e1-4d8d-b81b-af9a97b39753.png)
 
@@ -25,7 +26,17 @@ And base on those values we train our model and in this image below is the resul
 ![image](https://user-images.githubusercontent.com/86735728/135651316-e2db7abf-85f4-4c2b-8475-ec3c46021f4e.png)
 
 Neural Network Model 
-in the last model we use a  
+In the last model we use a neural network model using a simple classifier algorithm with keras from tensorflow
+
+The evaluation of the performance of the loss function was  significantly goof for this cases
+ ![image](https://user-images.githubusercontent.com/86735728/135892425-28cba533-982b-404d-91c3-79fae8db5a47.png)
+ 
+The accuracy of the training data and the validation was similary good with a good sign of no overfitting 
+![image](https://user-images.githubusercontent.com/86735728/135892576-efc01bb2-c798-4837-9099-13dfd7b8f2cb.png)
+
+The last evaluation was the recall/presicion and the confusion matrix 
+![image](https://user-images.githubusercontent.com/86735728/135892689-afafee91-240f-43c5-afbd-c50f306c9e93.png)
+Here we got a high performance in the positive case of heart attack, that is exactly what we want
 
 
 
